@@ -11,9 +11,9 @@ import org.springframework.security.oauth2.jwt.JwtDecoders;
 import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationConverter;
 import org.springframework.security.oauth2.server.resource.authentication.JwtGrantedAuthoritiesConverter;
 
-
 import java.util.Collection;
 import java.util.Map;
+
 
 @Configuration
 public class SecurityBean {
@@ -29,3 +29,5 @@ public class SecurityBean {
 
 
 }
+
+
